@@ -1,0 +1,17 @@
+# application.yml
+
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: localhost
+    username: mail@test.com
+    password: password
+    port: 1025
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
